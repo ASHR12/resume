@@ -1,0 +1,149 @@
+body{
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color: #FFFFFF;
+}
+.basic_info a{
+  color: #FFFFFF !important;
+}
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+ul.list.basic_info {
+    list-style: none;
+}
+ul.list{
+  list-style: none;
+}
+
+#nav-logo{
+    width: 7%;
+    border-radius: 15%;
+}
+.bg-dark {
+  background-color: transparent !important;
+}
+
+.background-gradient {
+  background-image: linear-gradient(to right, #232526, #414345);
+}
+
+.intro {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.intro hr {
+    border-color: #FFFFFF;
+}
+.profile-img{
+  display: inline;
+}
+.profile-img img{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+}
+.profile-desc {
+    display: inline;
+    float: right;
+    text-align: left;
+}
+.contact-details {
+    margin-top: 36px;
+    text-align: left;
+}
+.basic_info{
+  padding-left: 0px;
+}
+
+.footer-content{
+    padding-top: 30px;
+}
+
+.social-sections li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    color: #FFFFFF;
+}
+.social-sections a{
+    color: white;
+}
+footer p{
+  text-align: left;
+  display: inline;
+  float: left;
+}
+@media (max-width: 575.98px) {
+  .profile-img img{
+    widows: 2px;00px;
+    height:200px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+  .profile-desc {
+      display: inline;
+      float: right;
+      text-align: center;
+  }
+  .contact-details {
+      margin-top: 36px;
+      text-align: center;
+  }
+  footer p {
+    text-align: center;
+  }
+  .f_title p {
+    margin-left: 25%;
+  }
+  .social-sections li {
+      float: left;
+      margin-left: 20px;
+      list-style: none;
+      color: #FFFFFF;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .profile-img img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .profile-img{
+    display: inline;
+    float: left;
+  }
+  .contact-details {
+    margin-top: 95px;
+    font-size: 0.9rem
+  }
+  .profile-img img{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+  }
+  .profile-desc {
+      display: inline;
+      float: right;
+      text-align: left;
+      width: 310px;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .profile-img img{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+  }
+
+}
+@media (min-width: 1200px) {
+
+}
